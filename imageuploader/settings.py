@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-xcp4w50m6ta_e3tz7t#3(hk6&jv&%vk9q#rm_=2+!40f2oqmj8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','image-upload12.herokuapp.com']
+ALLOWED_HOSTS = ['localhost','image-upload12.herokuapp.com','127.0.0.1']
 
 
 # Application definition
