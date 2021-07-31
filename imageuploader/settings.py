@@ -27,7 +27,8 @@ SECRET_KEY = 'django-insecure-xcp4w50m6ta_e3tz7t#3(hk6&jv&%vk9q#rm_=2+!40f2oqmj8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','image-upload12.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = [,' imageupload12345.herokuapp.com','localhost',
+'127.0.0.1']
 
 
 # Application definition
@@ -132,7 +133,7 @@ MEDIA_ROOT=BASE_DIR / 'media'
 
 STATIC_ROOT=os.path.join(BASE_DIR,"staticfiles")
 
-# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'megit initdia')
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
