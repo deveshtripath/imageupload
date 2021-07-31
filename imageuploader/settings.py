@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
-import django_heroku
+# import django_heroku
 
 # # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-xcp4w50m6ta_e3tz7t#3(hk6&jv&%vk9q#rm_=2+!40f2oqmj8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [,' imageupload12345.herokuapp.com','localhost',
+ALLOWED_HOSTS = [' imageupload12345.herokuapp.com','localhost',
 '127.0.0.1']
 
 
@@ -136,4 +136,4 @@ STATIC_ROOT=os.path.join(BASE_DIR,"staticfiles")
 # MEDIA_ROOT = os.path.join(BASE_DIR, 'megit initdia')
 
 # Activate Django-Heroku.
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
